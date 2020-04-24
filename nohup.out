@@ -1,0 +1,139 @@
+    Finished dev [unoptimized + debuginfo] target(s) in 0.05s
+     Running `target/debug/login`
+Configured for development.
+    => address: localhost
+    => port: 8000
+    => log: normal
+    => workers: 10
+    => secret key: generated
+    => limits: forms = 32KiB
+    => keep-alive: 5s
+    => tls: disabled
+Mounting /:
+    => GET / (index)
+    => GET /<file..> [2] (files)
+    => POST /submit (submit_task)
+Rocket has launched from http://localhost:8000
+    Finished dev [unoptimized + debuginfo] target(s) in 0.06s
+     Running `target/debug/login`
+Configured for development.
+    => address: localhost
+    => port: 8000
+    => log: normal
+    => workers: 10
+    => secret key: generated
+    => limits: forms = 32KiB
+    => keep-alive: 5s
+    => tls: disabled
+Mounting /:
+    => GET / (index)
+    => GET /<file..> [2] (files)
+    => POST /submit (submit_task)
+Rocket has launched from http://localhost:8000
+   Compiling proc-macro2 v0.4.30
+   Compiling libc v0.2.69
+   Compiling unicode-xid v0.1.0
+   Compiling version_check v0.1.5
+   Compiling syn v0.15.44
+   Compiling byteorder v1.3.4
+   Compiling smallvec v1.4.0
+   Compiling matches v0.1.8
+   Compiling log v0.4.8
+   Compiling yansi v0.4.0
+   Compiling bitflags v1.2.1
+   Compiling cfg-if v0.1.10
+   Compiling cc v1.0.52
+   Compiling autocfg v1.0.0
+   Compiling version_check v0.9.1
+   Compiling percent-encoding v1.0.1
+   Compiling safemem v0.3.3
+   Compiling httparse v1.3.4
+   Compiling yansi v0.5.0
+   Compiling untrusted v0.6.2
+   Compiling lazy_static v1.4.0
+   Compiling language-tags v0.2.2
+   Compiling traitobject v0.1.0
+   Compiling serde v1.0.106
+   Compiling typeable v0.1.2
+   Compiling memchr v2.3.3
+   Compiling state v0.4.1
+   Compiling glob v0.3.0
+   Compiling unicode-bidi v0.3.4
+   Compiling unicode-normalization v0.1.12
+   Compiling pear_codegen v0.1.2
+   Compiling unicase v1.4.2
+   Compiling log v0.3.9
+   Compiling indexmap v1.3.2
+   Compiling rocket_codegen v0.4.4
+   Compiling rocket v0.4.4
+   Compiling mime v0.2.6
+   Compiling base64 v0.9.3
+   Compiling base64 v0.10.1
+   Compiling idna v0.1.5
+   Compiling time v0.1.43
+   Compiling num_cpus v1.13.0
+   Compiling atty v0.2.14
+   Compiling quote v0.6.13
+   Compiling url v1.7.2
+   Compiling ring v0.13.5
+   Compiling hyper v0.10.16
+   Compiling cookie v0.11.2
+   Compiling toml v0.4.10
+   Compiling devise_core v0.2.0
+   Compiling devise_codegen v0.2.0
+    Blocking waiting for file lock on build directory
+   Compiling devise v0.2.0
+   Compiling pear v0.1.2
+   Compiling rocket_http v0.4.4
+    Blocking waiting for file lock on build directory
+   Compiling login v0.1.0 (/workspace/Login)
+    Finished dev [unoptimized + debuginfo] target(s) in 1m 04s
+     Running `target/debug/login`
+Configured for development.
+    => address: localhost
+    => port: 8000
+    => log: normal
+    => workers: 10
+    => secret key: generated
+    => limits: forms = 32KiB
+    => keep-alive: 5s
+    => tls: disabled
+Mounting /:
+    => GET / (index)
+    => GET /<file..> [2] (files)
+    => POST /submit (submit_task)
+Rocket has launched from http://localhost:8000
+    Finished dev [unoptimized + debuginfo] target(s) in 22.52s
+     Running `target/debug/login`
+Configured for development.
+    => address: localhost
+    => port: 8000
+    => log: normal
+    => workers: 10
+    => secret key: generated
+    => limits: forms = 32KiB
+    => keep-alive: 5s
+    => tls: disabled
+Mounting /:
+    => GET / (index)
+    => GET /<file..> [2] (files)
+    => POST /submit (submit_task)
+Rocket has launched from http://localhost:8000
+    Finished dev [unoptimized + debuginfo] target(s) in 4.95s
+     Running `target/debug/login`
+Configured for development.
+    => address: localhost
+    => port: 8000
+    => log: normal
+    => workers: 10
+    => secret key: generated
+    => limits: forms = 32KiB
+    => keep-alive: 5s
+    => tls: disabled
+Mounting /:
+    => GET / (index)
+    => GET /<file..> [2] (files)
+    => POST /submit (submit_task)
+Error: Rocket failed to bind network socket to given address/port.
+thread 'main' panicked at 'Address already in use (os error 98)', /workspace/.cargo/registry/src/github.com-1ecc6299db9ec823/rocket-0.4.4/src/error.rs:192:17
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace

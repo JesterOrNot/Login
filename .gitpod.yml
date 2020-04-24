@@ -1,0 +1,5 @@
+tasks:
+  - init: |
+      nohup cargo run &
+      gp await-port 8000
+      kill $(pidof target/debug/login)
